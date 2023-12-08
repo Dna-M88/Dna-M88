@@ -287,10 +287,16 @@ color: white;
   box-shadow: 0 5px 10px 10px #000;
   transition: 0.4s;
 }
+
+/* Para sa Carousel*/ 
 .projectimg {
   border-radius: 20px;
 }
-
+.carousel-caption {
+  background-color: #343434;
+  opacity: 0.8;
+  border-radius: 60px;
+}
 
 /* para maging responsive ung mapaaa */
 .map-responsive{
