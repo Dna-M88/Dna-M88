@@ -171,10 +171,10 @@ a:visited {
   text-align: center;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 100px;
   font-family: montserrat;
   font-weight: bold;
-  padding-left: 30px;
+  padding-left: 10px;
 }
 .h4 {
 color: white;
@@ -191,8 +191,8 @@ color: white;
   justify-content: center;
   align-items: center;
   font-family: montserrat;
-  padding-left: 30px;
-  padding-top: 30px;
+  padding-left: 10px;
+  padding-top: 40px;
 }
 
 .educ-item:hover .educ-overlay {
