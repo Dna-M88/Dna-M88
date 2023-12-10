@@ -10,6 +10,11 @@
     padding: 0 40px;
 }
 
+section {
+  padding-top: 10px;
+}
+
+
 #hero, #footer, #contacts  {
   background-image: url("BG-.1.jpg");
   background-position: center;
@@ -94,14 +99,14 @@
     color: #fff;
 }
 
-#aboutme, #projects,#education {
+#aboutme, #projects,#education,#services {
   background-image: linear-gradient(	#000,#343434	);
   padding-bottom: 100px;
 }
 
 .img2 {
-  margin: bottom;
   background-color:#FFBF00;
+  margin: bottom;
   position: relative;
   height: 200px;
   transition: 0.3s;
@@ -111,7 +116,7 @@
   transform: scale(1.1); 
   opacity: 1;
   transition: 0.3s;
-  box-shadow: 0 0px 10px 10px white;
+  box-shadow: 0 0px 10px 5px #FFBF00;
 }
 .navbar {
   box-shadow: 5px 5px 5px 0px;
@@ -122,14 +127,14 @@ a:link {
   color:white;
 }
 a:visited {
-  color:#FFBF00; 
+  color:white; 
 }
 
 /* Ung pic sa abt me */
 
 .img-aboutme {
   background-color:#FFBF00;
-  box-shadow: 0 0px 10px 10px white;
+  box-shadow: 0 0px 10px 7px white;
 }
 
 /*education*/
@@ -166,7 +171,7 @@ a:visited {
   text-align: center;
   justify-content: center;
   align-items: center;
-  padding-top: 225px;
+  padding-top: 50px;
   font-family: montserrat;
   font-weight: bold;
   padding-left: 30px;
@@ -208,10 +213,6 @@ color: white;
   color: #FFBF00 !important;
 
 }
-.txt3 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
 .btn2 {
   border-radius: 20px;
   transition: 0.3s;
@@ -236,6 +237,7 @@ color: white;
   border: 0px;
   font-family: montserrat;
   text-transform:uppercase;
+
 }
 .tab1 a:hover { 
   font-weight: bold;
@@ -256,7 +258,7 @@ color: white;
 /* Footer ante */
 .btn1 {
   border-radius: 30px;
-  transition: 0.4s;
+  transition: 0.4s; 
 
 }
 .btn1:hover {
@@ -273,8 +275,6 @@ color: white;
   border-radius: 10px;
   box-shadow: 0 5px 5px 5px #000;
 
-
-
 }
 .skill-cards .lead{
   background-color: black;
@@ -287,15 +287,13 @@ color: white;
   box-shadow: 0 5px 10px 10px #000;
   transition: 0.4s;
 }
-
-/* Para sa Carousel*/ 
 .projectimg {
   border-radius: 20px;
 }
 .carousel-caption {
-  background-color: #343434;
+  background-color: black;
   opacity: 0.8;
-  border-radius: 60px;
+  border-radius: 40px;
 }
 
 /* para maging responsive ung mapaaa */
@@ -312,5 +310,43 @@ color: white;
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+
+/* services */
+
+.card-effect {
+  background-color:#FFBF00 ;
+  padding: 100px;
+  border-radius: 5px;
+  transform: translateY(5px);
+  box-shadow: 0 15px 20px 10px black;
+  transition: all 0.3s ease;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+}
+
+
+.card-effect:hover {
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px 5px black;
+}
+
+.caption {
+  font-family: Poppins;
+  color: white;
+  text-shadow: 0 2px 2px #dfdfdf, 
+  -2px 5px 1px #171717, 
+  -4px 8px 0px #000;  
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.btn10 {
+  font-size: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 
